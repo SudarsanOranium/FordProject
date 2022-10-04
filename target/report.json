@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-22T06:07:49.238Z",
+        "line": 4,
+        "name": "Validating with the valid credentials",
+        "description": "",
+        "id": "validating-the-login-page;validating-with-the-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6444695800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the facebook login page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 278004500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters enter the valid username and password",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_enters_enter_the_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101996600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3002279000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketesting"
+          }
+        ]
+      }
+    ],
+    "name": "Validating the login page",
+    "description": "",
+    "id": "validating-the-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/loginPage.feature",
+    "tags": []
+  }
+]
